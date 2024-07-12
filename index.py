@@ -21,3 +21,14 @@ def short_long_short(a, b):
         long = a
     
     return short + long + short
+
+
+
+def short_long_short1(a, b):
+    if len(a) < len(b):
+        return a + b + a
+    else:
+        return b + a + b
+
+
+print(short_long_short1("1", "22")) 
